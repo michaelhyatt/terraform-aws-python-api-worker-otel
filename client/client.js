@@ -1,5 +1,5 @@
 // Run the client: 
-//  NODE_DEBUG=request node client.js https://XXXXXXXXX.execute-api.ap-southeast-2.amazonaws.com/dev/produce
+//  NODE_DEBUG=request node client.js https://XXXXXXXXX.execute-api.ap-southeast-2.amazonaws.com/default
 
 const request = require('request');
 const apm_config = require('../deploy/env.auto.tfvars.json')

@@ -20,7 +20,7 @@ module "python-producer-lambda-function" {
   ])
 
   environment_variables = {
-    AWS_LAMBDA_EXEC_WRAPPER = "/var/task/otel-instrument.py"
+    AWS_LAMBDA_EXEC_WRAPPER: "/var/task/otel-instrument.py"
     ELASTIC_OTLP_ENDPOINT: var.elastic_otlp_endpoint
     ELASTIC_OTLP_TOKEN: var.elastic_otlp_token
     OPENTELEMETRY_COLLECTOR_CONFIG_FILE: "/var/task/opentelemetry-collector.yaml"
