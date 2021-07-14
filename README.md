@@ -74,8 +74,10 @@ service:
 
 * Deploy your Lambda function, test it and visualize it in Elastic Observability's APM view:
     * Example distributed trace chaining 2 lambda functions and [provided Node.js client](client/README.md):
+      ![image](https://user-images.githubusercontent.com/15670925/125575737-f1441f81-09df-4ac6-a5d9-c8e2e2aa3cfd.png)
 
     * Example of the above trace represented as a service map:
+      ![image](https://user-images.githubusercontent.com/15670925/125575850-cf0fbf03-be8f-4dc3-8702-6b6cb5ab893e.png)
 
 
 ## Disabling auto-instrumentation of Python libraries
