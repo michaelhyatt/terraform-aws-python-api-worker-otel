@@ -20,3 +20,5 @@ terraform init
 
 terraform apply
 ```
+
+Use the reported `producer` API GW URL to invoke the lambdas. You may want to use the provided [Node.js client](../client/README.md).
