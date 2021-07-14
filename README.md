@@ -7,7 +7,7 @@ This tutorial explains how to instrument Python lambda functions with the OpenTe
 
 * Install Python 3.8, pip3 and opentelemetry packages locally (if needed):
     ```bash
-    pip3 install opentelemetry==1.2.0
+    pip3 install opentelemetry-api==1.2.0
     ```
 
 * Add the following imports to your lambda function code:
