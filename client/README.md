@@ -6,6 +6,7 @@ This client requires `npm` and `nodejs`. Once these have been installed, run the
 ```
 npm install
 ```
+The `client.js` script relies on APM server connection parameters that spacified in [deploy/env.auto.tfvars.json](../deploy/env.auto.tfvars.json) file.
 
 ## Invoke
 After the lambdas are deployed, invoke the `producer` lambda using its url reported by terraform:
