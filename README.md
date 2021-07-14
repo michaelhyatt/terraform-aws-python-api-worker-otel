@@ -111,5 +111,5 @@ Invoking remote services, such as other lambdas or APIs may require injecting th
 
 ## Terraform deployment example
 See
-* [deploy](deploy/README.md) 
+* [Deploymet folder](deploy/README.md) 
 * [Node.js client to create distributed traces](client/README.md)
