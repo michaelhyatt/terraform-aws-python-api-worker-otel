@@ -73,7 +73,7 @@ service:
       * `OPENTELEMETRY_COLLECTOR_CONFIG_FILE="/var/task/opentelemetry-collector.yaml"` to specify the path to your OpenTelemetry Collector configuration.
 
 * Deploy your Lambda function, test it and visualize it in Elastic Observability's APM view:
-    * Example distributed trace chaining 2 lambda functions and [provided Node.js client](client/README.md):
+    * Example distributed trace chaining 2 lambda functions and [provided Node.js client](client):
       ![image](https://user-images.githubusercontent.com/15670925/125575737-f1441f81-09df-4ac6-a5d9-c8e2e2aa3cfd.png)
 
     * Example of the above trace represented as a service map:
@@ -111,5 +111,5 @@ Invoking remote services, such as other lambdas or APIs may require injecting th
 
 ## Terraform deployment example
 See
-* [Deploymet folder](deploy/README.md) 
-* [Node.js client to create distributed traces](client/README.md)
+* [Deploymet folder](deploy) 
+* [Node.js client to create distributed traces](client)
